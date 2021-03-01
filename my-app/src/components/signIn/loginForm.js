@@ -35,10 +35,10 @@ export default () => {
           </Button>
             <UserTip>
                 <Links>
-                    <Link to = "/signIn">Forgot your password?</Link>
+                    <Link to = "#">Forgot your password?</Link>
                 </Links>
                     <Links>
-                        <Link to="/signUp" >Don't have an account? Sign Up</Link>
+                        <Link to="signUp" >Don't have an account? Sign Up</Link>
                     </Links>
                  
             </UserTip>
