@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
   
@@ -37,7 +35,7 @@ export default () => {
           </Button>
             <UserTip>
                 <Links>
-                    <Link to = "/">Forgot your password?</Link>
+                    <Link to = "/signIn">Forgot your password?</Link>
                 </Links>
                     <Links>
                         <Link to="/signUp" >Don't have an account? Sign Up</Link>
